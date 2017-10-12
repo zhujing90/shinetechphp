@@ -1,0 +1,325 @@
+.row.header-bg {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.home-r2 .col-sm-4 .home-block-content {
+    height: 280px;
+    margin-bottom: 10px;
+    overflow-y: auto;
+}
+
+.pages-title .sm-word {
+    font-size: 16px;
+    text-transform: none;
+    line-height: 1.2;
+    font-family: 'Raleway-Regular', sans-serif;
+}
+/*    @media (max-width:1700px) {
+        .big-title {
+            top: 280px;
+        }
+        .front .pages-title{
+            top: 420px;
+        }
+    }*/
+/*    @media (max-width:1600px) {
+        .big-title {
+            top: 290px;
+        }
+        .front .pages-title{
+            top: 400px;
+        }
+    }*/
+
+/*    @media (max-width:1560px) {
+        .big-title {
+            top: 240px;
+        }
+        .front .pages-title{
+            top: 400px;
+        }
+    }
+    @media (max-width:1529px) {
+        .big-title {
+            top: 200px;
+        }
+        .front .pages-title{
+            top: 360px;
+        }
+    }
+    @media (max-width:1370px) {
+        .front .pages-title{
+            top: 340px;
+        }
+    }
+    @media (max-width:1344px) {
+        .big-title {
+            top: 150px;
+        }
+        .front .pages-title{
+            top: 300px;
+        }
+    }
+    @media (max-width:1240px) {
+        .front .pages-title{
+            top: 270px;
+        }
+    }
+    @media (max-width:1200px) {
+        .big-title {
+            top: 120px;
+        }
+    }*/
+@media (min-width: 1200px) {
+    .top-banner img {
+        height: 653px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .big-title {
+        display: none;
+    }
+    .pages-title {
+        top: 11em;
+    }
+}
+
+@media (max-width: 414px) {
+    .pages-title {
+        top: 9em;
+        width: 300px;
+    }
+    .pages-title .sm-word {
+        font-size: 12px;
+    }
+}
+
+
+/*    @media (max-width: 1133px) {
+        .big-title {
+            font-size: 36px;
+            margin-left: -390px;
+        }
+    }
+
+    @media (max-width: 1135px) {
+         .front .pages-title {
+            top: 260px;
+        }
+    }
+    @media (max-width: 1010px){
+        .front .pages-title {
+            top: 200px;
+        }
+    }
+
+    @media (max-width: 911px) {
+        .front .pages-title br {
+            display: none;
+            font-size: 16px;
+        }
+        .front .pages-title {
+            top: 160px;
+        }
+    }
+
+    @media (max-width: 992px) {
+        .myshine-slider .img-right {
+            margin-top: 20px;
+            text-align: center;
+        }
+    }
+
+    @media (max-width:985px) {
+        .big-title {
+            top: 50px;
+        }
+    }
+
+    @media (max-width:791px) {
+        .big-title {
+            top: 30px;
+            font-size: 30px;
+            margin-left: -325px;
+        }
+        .front .pages-title {
+            width: auto;
+            margin-left: 0;
+            left: 20px;
+            right: 20px;
+            padding: 20px 30px;
+        }
+    }
+
+    @media(max-width: 690px) {
+        .big-title {
+            font-size: 26px;
+            margin-left: -282px;
+        }
+        .front .pages-title-box {
+            max-width: 100%;
+            width: 100%;
+        }
+        .front .pages-title {
+            padding: 15px 20px;
+            top: 100px;
+        }
+    }
+
+    @media(max-width: 600px) {
+        .big-title {
+            font-size: 22px;
+            margin-left: -238px;
+        }
+        .front .pages-title .sm-word {
+            font-size: 14px;
+        }
+    }
+
+    @media(max-width: 480px) {
+        .big-title {
+            font-size: 18px;
+            margin-left: -195px;
+        }
+        .front .pages-title {
+            padding: 10px 15px;
+           top: 80px;
+        }
+        .front .pages-title .sm-word {
+            font-size: 12px;
+        }
+    }
+
+    @media(max-width: 425px) {
+        .big-title {
+            font-size: 16px;
+            margin-left: -172px;
+            top: 10px;
+        }
+        .front .pages-title {
+            padding: 10px;
+            top: 60px;
+        }
+    }
+
+    @media(max-width: 424px) {
+        .home-r1 .col-xs-6 {
+            width: 100%;
+        }
+    }
+
+    @media(max-width: 360px) {
+        .big-title {
+            font-size: 14px;
+            margin-left: -150px;
+            top: 10px;
+        }
+        .front .pages-title {
+            padding: 5px 10px;
+            left: 10px;
+            right: 10px;
+            top: 50px;
+        }
+    }*/
+
+.home-r6 h2 {
+    margin-bottom: 30px;
+}
+
+.home-r3 h2,
+.home-r6 h2,
+.home-r6 p {
+    color: #000;
+}
+
+.home-r6 p {
+    text-align: left;
+}
+
+.homenew {
+    background: #006b7b;
+    min-height: 517px;
+}
+
+.myshine-slider {
+    width: 100%;
+    padding: 60px 0;
+    color: #fff;
+}
+
+.myshine-slider .carousel-control.right,
+.myshine-slider .carousel-control.left {
+    background: none;
+    filter: none;
+    display: none;
+}
+
+.myshine-slider p {
+    color: #fff;
+    font-family: 'Raleway-Medium', sans-serif;
+    font-size: 16px !important;
+    margin-bottom: 25px;
+}
+
+.myshine-slider p.title {
+    font-family: 'Raleway-Bold', sans-serif;
+    font-size: 36px!important;
+    margin-bottom: 55px;
+}
+
+.myshine-slider .carousel-inner {
+    margin-bottom: 15px;
+}
+
+.myshine-slider .carousel-indicators li {
+    width: 18px;
+    height: 18px;
+    margin: 0 6px;
+    background: #fff;
+}
+
+.myshine-slider .carousel-indicators .active {
+    background: #90ad42;
+    border-color: #90ad42;
+}
+
+.myshine-slider .item {
+    min-height: 390px;
+}
+
+.mygreenBtn {
+    background: #90ad42;
+    font-family: 'Raleway-Medium', sans-serif;
+    color: #fff;
+    width: 160px;
+    height: 50px;
+    display: block;
+    font-size: 18px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.mygreenBtn:hover {
+    color: #fff;
+    opacity: .8;
+    text-decoration: none;
+}
+
+.myshine-slider .img-right {
+    margin-top: 100px;
+    text-align: right;
+}
+
+.myshine-slider .img-right img {
+    max-width: 200px;
+    margin-top: 95px;
+}
+
+.myshine-slider .img-right .circle-img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background: #fff;
+    text-align: center;
+}
