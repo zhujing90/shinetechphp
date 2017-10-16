@@ -11,10 +11,10 @@
 |
 */
 
-//Web
+// Web
 Route::get('/', 'HomeController@index');
 
-// Mobule: AUTH
+// AUTH
 Route::group(['as' => 'auth.'], function () {
     Route::get('login', 'Auth\LoginController@showLoginForm')->name('login');
     Route::post('login', ['as' => 'login', 'uses' => 'Auth\LoginController@login']);
@@ -30,4 +30,31 @@ Route::group(['as' => 'auth.'], function () {
 Route::group(['middleware' => 'auth', 'prefix' => 'admin', 'as' => 'admin.'], function () {
     // Dashboard
     Route::get('/', ['as' => 'index', 'uses' => 'Admin\DashboardController@index']);
+
+    // PRODUCTS
+    Route::group(['prefix' => 'products', 'as' => 'products.'], function () {
+
+        // Categorys
+        Route::resource('categorys', 'Admin\Products\CategorysController');
+        Route::post('categorys/update/{id}', 'Admin\Products\CategorysController@update')->name('categorys.update');
+        Route::post('categorys/destroy', 'Admin\Products\CategorysController@destroy')->name('categorys.destroy');
+
+        // Contents
+        Route::resource('contents', 'Admin\Products\ContentsController');
+        Route::post('contents/update/{id}', 'Admin\Products\ContentsController@update')->name('contents.update');
+        Route::post('contents/destroy', 'Admin\Products\ContentsController@destroy')->name('contents.destroy');
+        Route::any('contents/upload/{id?}', 'Admin\Products\ContentsController@upload')->name('contents.upload');
+    });
+
+    // PROFILE
+    Route::group(['prefix' => 'profile', 'as' => 'profile.'], function () {
+        Route::get('', ['as' => 'profile', 'uses' => 'Admin\Profile\ProfileController@index']);
+        Route::post('update', ['as' => 'update', 'uses' => 'Admin\Profile\ProfileController@password']);
+    });
+
+    // USERS
+    Route::resource('users', 'Admin\Users\UsersController');
+    Route::post('users/update/{id}', 'Admin\Users\UsersController@update')->name('users.update');
+    Route::post('users/destroy', 'Admin\Users\UsersController@destroy')->name('users.destroy');
+
 });

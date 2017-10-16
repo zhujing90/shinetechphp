@@ -811,8 +811,8 @@ fieldset[disabled] .btn-warning.active {
   border-color: #f2c922;
 }
 .btn-danger {
-  background-color: #f9311d;
-  border-color: #f9311d;
+  background-color: #e89991;
+  border-color: #f9d3d0;
   color: #FFFFFF;
 }
 .btn-danger:hover,
@@ -5419,6 +5419,12 @@ body.body-small .vote-icon {
  * Made by Osman Nuri Okumus
  * Under MIT License
  */
+.metismenu {
+  flex-direction: column;
+}
+.metismenu > li {
+  padding: 15px 5px;
+}
 .metismenu .nav-header {
   background: #273643;
   color: #606f8a;

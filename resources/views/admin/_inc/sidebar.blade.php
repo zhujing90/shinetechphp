@@ -11,9 +11,9 @@
             @lang('admin/dashboard.pages.description')
         </div>
     </div>
-    <div class="m-t-md">
+    {{--<div class="m-t-md">
         <h4>@lang('admin/dashboard.mailbox.title')</h4>
-        {{--<div>
+        <div>
             <ul class="list-group">
                 <li class="list-group-item">
                     <span class="badge badge-primary"></span>
@@ -28,6 +28,6 @@
                     <a href="{{ route('admin.mailbox.trash') }}"><u>@lang('admin/dashboard.mailbox.trash')</u></a>
                 </li>
             </ul>
-        </div>--}}
-    </div>
+        </div>
+    </div>--}}
 </div>
