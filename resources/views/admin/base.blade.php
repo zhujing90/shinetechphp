@@ -68,9 +68,9 @@
                         <li><a href="{{ route('admin.products.contents.index') }}">@lang('admin/products.submodule.contents')</a></li>
                     </ul>
                 </li>
+                <li><a href=""><i class="fa fa-graduation-cap"></i><span class="nav-label">Prize</span></a></li>
                 <li><a href="{{ route('admin.users.index') }}"><i class="fa fa-users"></i> <span class="nav-label">@lang('admin/users.module')</span></a></li>
             </ul>
-
 
         </div>
     </nav>
@@ -84,8 +84,7 @@
                 </div>--}}
                 <ul class="nav navbar-top-links navbar-right">
                     <li><span class="m-r-sm text-muted welcome-message">@lang('admin/_globals.hello') <strong><a href="{{ route('admin.profile.profile') }}" class="no-padding">
-                                {{ Auth::user()->name }}</a></strong></span>
-                        <img src="{{ Gravatar::src(Auth::user()->email, 60) }}" class="img-circle" height="32"></li>
+                                {{ Auth::user()->name }}</a></strong></span></li>
                     <li><a href="{{ route('auth.logout') }}"><i class="fa fa-sign-out"></i> @lang('admin/_globals.exit')</a></li>
                 </ul>
             </nav>

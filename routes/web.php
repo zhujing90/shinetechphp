@@ -13,6 +13,9 @@
 
 // Web
 Route::get('/', 'HomeController@index');
+Route::group(['prefix' => 'about-us', 'as' => 'about-us.'], function () {
+    Route::get('company-profile', 'AboutusController@getCompanyProfile');
+});
 
 // AUTH
 Route::group(['as' => 'auth.'], function () {
@@ -58,3 +61,4 @@ Route::group(['middleware' => 'auth', 'prefix' => 'admin', 'as' => 'admin.'], fu
     Route::post('users/destroy', 'Admin\Users\UsersController@destroy')->name('users.destroy');
 
 });
+

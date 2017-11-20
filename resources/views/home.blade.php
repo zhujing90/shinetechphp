@@ -18,15 +18,12 @@
                 <div class="banner-mask"></div>
                 <div class="index-banner-box">
                     <p class="big-title">
-                        PROGRESSIVE BUSINESSES NEED AN
-                        <br>OUTSOURCING PARTNER THAT CAN KEEP UP
+                        Banner轮播图展示
+                        <br>
                     </p>
                     <div class="pages-title">
                         <p class="text-center sm-word">
-                            It is time to rethink your outsourcing model — full stack capabilities are the key for
-                            project success.
-                            Shinetech provides flexible teams comprise 1-8 full stack developers that can directly add
-                            value to your rapidly evolving business.
+                            一些简介
                         </p>
                     </div>
                 </div>
@@ -43,13 +40,9 @@
                 <div class="container">
                     <div class="row home-r6">
                         <div class="col-md-12">
-                            <h2 class="text-center">WHO WE ARE</h2>
+                            <h2 class="text-center">关于我们</h2>
                             <p class="text-center">
-                                Shinetech is a globally established provider of bespoke software development that was
-                                founded in Beijing, China in 2001. It has collaborated with 1000+ companies around the
-                                world, out of which, over 200 are from Australia. With a unique focus on building
-                                strong, collaborative relationships with clients, Shinetech provides solutions that
-                                quickly solve clients' business problems, promote their business innovation and growth.
+                                分公司介绍，获得的资质等
                             </p>
                             <br>
                         </div>
@@ -85,10 +78,10 @@
                 <div class="container">
                     <div class="row home-r6">
                         <div class="col-md-12">
-                            <h2 class="text-center">OUR CLIENTS</h2>
-                            <!--p class="text-center" style="margin-bottom: 50px;">
-                                We have cooperated with over 300 Australian companies, covering agriculture and animal husbandry, manufacturing, public service, IT and healthcare sectors. The longest cooperation with an IT consulting company has been 9 years.
-                            </p-->
+                            <h2 class="text-center">我们的客户</h2>
+                            <p class="text-center" style="margin-bottom: 50px;">
+                                这部分展示几个重点的客户
+                            </p>
                             <br>
                         </div>
                     </div>
@@ -173,19 +166,30 @@
                 </div>
             </div>
         </div>
+        <div class="container-fluid" style="background: #ebebeb;">
+            <div class="row">
+                <div class="container">
+                    <div class="row home-r6">
+                        <div class="col-md-12">
+                            <h2 class="text-center">我们的案例</h2>
+                            <p class="text-center" style="margin-bottom: 50px;">
+                                这部分展示几个典型的案例
+                            </p>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="container-fluid">
             <div class="row home-r5-bg">
                 <div class="container">
                     <div class="row home-r3">
                         <div class="col-xs-12 col-sm-6 col-md-6">
-                            <h2>TRY SHINETECH<br>FOR ONE WEEK,<br>FREE OF CHARGE!</h2>
+                            <h2>我们的员工</h2>
                             <p class="text-left">
-                                Share with us a specific requirement such as a module or function point that needs
-                                further development. You’ll then be able to try our services risk-free for one week to
-                                learn about our working methods, development efficiency, and other capabilities—all
-                                before signing a final contract. Start a trial project now, risk free.
+                                精英员工介绍
                             </p>
-                            <a href="/free-trial.html" class="bigRedButton">START YOUR FREE TRIAL</a>
                         </div>
                     </div>
                 </div>
@@ -193,52 +197,14 @@
         </div>
         <div class="container-fluid">
             <div class="container">
-                <div class="row home-r2">
-                    <div class="col-xs-12 col-sm-4 posts">
-                        <h2>INSIGHTS</h2>
-                        <div class="home-block-content">
-                            <img src="{{ asset('imgs/recent_insights.jpg') }}" alt="Recent blog posts" class="img-responsive">
-                            <p class="text-left t1"><span>Deshui Wang | Apr 8, 2017</span></p>
-                            <p class="text-left">Something you don't know about ODC
-                                <br>
-                            </p>
-                        </div>
-                        <a href="/insights.html" class="learn-more">LEARN MORE</a>
-                    </div>
-                    <div class="col-xs-12 col-sm-4 news">
-                        <h2>RECENT NEWS</h2>
-                        <div class="home-block-content">
-                            <img src="{{ asset('imgs/recent-news.jpg') }}" alt="Recent news" class="img-responsive">
-                            <p class="text-left t1"><span>April 20 </span></p>
-                            <p class="text-left">Shinetech Software, Inc. Announces New Global Structure, Promotes Key
-                                Leaders</p>
-                        </div>
-                        <a href="/about-us/newsroom.html" class="learn-more">NEWS ROOM</a>
-                    </div>
-                    <div class="col-xs-12 col-sm-4 tweets">
-                        <h2>LATEST TWEETS</h2>
-                        <div class="home-block-content">
-                            <p class="text-left">
-                                <!-- <a href="https://twitter.com/ShinetechUS" class="twitter-timeline" data-widget-id="566901533678120961" data-link-color="#cc0000" width="290" height="320" data-tweet-limit="2" data-chrome="noheader nofooter transparent" target="_blank">Latest Tweets</a> -->
-                                <a class="twitter-timeline" href="https://twitter.com/ShinetechUS" width="290"
-                                   height="320">Latest Tweets</a>
-                            </p>
-                        </div>
-                        <a href="https://twitter.com/ShinetechUS" class="learn-more" target="_blank">LATEST TWEETS</a>
-                    </div>
-                </div>
+                <div>这里放一个地图</div>
             </div>
         </div>
         <div class="footer-push"></div>
     </div>
 
-
-
     <!-- footer start -->
-    <footer class="footer-box">
-        @include('footer')
-    </footer>
-
+    @include('footer')
 </div>
 
 @stop
